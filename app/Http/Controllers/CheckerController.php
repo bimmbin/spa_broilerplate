@@ -8,7 +8,7 @@ class CheckerController extends Controller
 {
   public function store(Request $request)
   {
-
+    //just samp
     return response()->json(['status' => $request->data]);
   }
 }
